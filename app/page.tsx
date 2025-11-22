@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex flex-col items-center w-full">
 
       {/* === SECTION 1: Intro + Portrait === */}
-      <section className="w-full max-w-5xl grid md:grid-cols-2 gap-8 py-16 px-6">
+      <section className="w-full max-w-5xl grid md:grid-cols-2 gap-8 py-6 px-4">
         {/* Left text */}
         <div className="space-y-4">
           <h1 className="text-4xl font-semibold text-[#d37caa]">
@@ -48,7 +48,7 @@ export default function Home() {
       </section>
 
       {/* === SECTION 2: Services Blocks === */}
-      <section className="w-full bg-blue-100 py-16 px-6">
+      <section className="w-full bg-blue-100 py-6 px-4">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
 
           {/* Healing with trance + energy */}
@@ -73,7 +73,7 @@ export default function Home() {
       </section>
 
       {/* === SECTION 3: Flowers + Healing Long Text === */}
-      <section className="w-full max-w-5xl grid md:grid-cols-2 gap-8 py-16 px-6">
+      <section className="w-full max-w-5xl grid md:grid-cols-2 gap-8 py-6 px-4">
 
         {/* Left image */}
         <div className="flex justify-center">
@@ -103,7 +103,7 @@ export default function Home() {
       </section>
 
       {/* === SECTION 4: Workshops + Candle Image === */}
-      <section className="w-full max-w-5xl grid md:grid-cols-2 gap-8 py-16 px-6">
+      <section className="w-full max-w-5xl grid md:grid-cols-2 gap-8 py-6 px-4">
 
         {/* Workshops text */}
         <div className="space-y-4">
@@ -130,7 +130,7 @@ export default function Home() {
 
       </section>
       {/* === SECTION 3: Flowers + Healing Long Text === */}
-      <section className="w-full bg-blue-100 py-16 px-6">
+      <section className="w-full bg-blue-100 py-6 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="w-1/2 ml-auto">
             <h2 className="text-2xl font-semibold">Get in touch
@@ -141,6 +141,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </main>
+    </main >
   );
 }
