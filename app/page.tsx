@@ -75,13 +75,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* === SECTION 3: Flowers + Healing Long Text === */}
       <section className="w-full max-w-5xl grid md:grid-cols-2 gap-8 py-6 px-4">
 
         {/* Left image */}
         <div className="flex justify-center">
           <Image
-            src="/images/flowers.jpg"
+            src="/images/sunrise.jpg"
             alt="Flowers"
             width={550}
             height={650}
