@@ -57,19 +57,16 @@ export default function Home() {
           {/* Healing with trance + energy */}
           <div className="space-y-3">
             <h2 className="text-xl font-semibold">Healing with trance and energy</h2>
-            <p>£40 session. £100 for 3.</p>
+            <p>£100 for 5 sessions.</p>
             <p>Further sessions 25% discount.</p>
           </div>
 
           {/* Psychic & Mediumistic sittings */}
           <div className="space-y-3">
             <h2 className="text-xl font-semibold">Psychic and mediumistic sittings</h2>
-            <p>£40 session</p>
+            <p>£40 per session.</p>
             <p>Returning clients receive 25% discount.</p>
-            <p>
-              Refer a friend — mention your name to receive £5 credit on
-              completion of their first consultation.
-            </p>
+
           </div>
 
         </div>
